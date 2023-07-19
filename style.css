@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Navbar Style Strat */
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.game{
+    display: flex;
+    align-items: Center;
+    gap: 20px;
+}
+.game span{
+    color: #FF42A5;
+}
+.gamer{
+    font-size: 45px;
+    font-weight: 600;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.list li{
+    margin-right: 30px;
+}
+.list li a{
+    text-decoration: none;
+    color: #3C354F;
+    font-size: 18px
+}
+.nav-box{
+    /* border: 1px solid red; */
+    background-color: rgb(219, 213, 213);
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    margin-right: 10px;
+    padding: 8px 5px 8px 10px;
+    border-radius: 5px;
+}
+.fa-brands{
+    margin:  0px 10px;
+}
+.nav-box p{
+    color: #3C354F; 
+}
+/* Navbar Style Ends */
+.banner-container{
+    display: flex;
+    
+}
+.contant{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 50%;
+    height: 80vh;
+    background: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+    
+}
+.main-contant{
+    margin: 0 100px;
+}  
+.main-contant h3{
+    font-size: 28px;
+    font-weight: 400;
+}
+.main-contant h1{
+    font-size: 65px;
+    font-weight: 600;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+   background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.fa-regular , .fa-solid , .fa-person{
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.fa-circle-play{
+  color: #FF42A5;  
+}
+.fa-person{
+    color: #3C354F;
+}
+.btn-primary{
+    margin-top: 30px;
+    width: 120px;
+    height: 45px;
+    background-color: #FF42A5 ;
+    color: #FFF;
+    border-radius: 20px;
+    border: none;
+}
+.btn-secondary{
+    margin-left: 10px;
+    width: 120px;
+    height: 45px;
+    background-color: #4EC5F7 ;
+    color: #FFF;
+    border-radius: 20px;
+    border: none;
+}
+.banner-images{
+    height: 80vh;
+    margin-right: 100px;
+    margin-left: 20px;
+    width: 50%;
+    
+}
+.banner-images img{
+    width: 100%;
+    height:100%;
+}
+/* Banner Ends */
+/* MAin Section Start */
+.main-container{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    align-items: center;
+    height: 60vh;
+}
+.main-images img{
+    margin-left: 100px;
+    width: 600px ;
+    
+
+}
+.main-gamer-content{
+    text-align: right;
+    margin-right: 100px;
+    width: 350px ;
+}
+.main-gamer-content-heading{
+    font-size: 30px;
+    font-weight: 600;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.main-gamer-content, .first-pera{
+    margin-top: 20px;
+    color: #534C64;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.main-er-button{
+    margin-top: 20px;
+    width: 120px;
+    height: 45px;
+    background-color: #FF42A5 ;
+    color: #FFF;
+    border-radius: 20px;
+    border: none;
+
+}
+.main-gamer-content, .mainer-last-pera{
+    color: #534C64;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+}
+.online-games-funny h1{
+    margin-top: 60px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.funny-videos{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+.online-games-funny p{
+   text-align: center;
+   font-size: small;
+   margin-bottom: 40px;
+}
+.online-games-funny-images{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.online-games-funny-images img{
+    width: 250px; 
+}
+.bottom-content{
+    margin-top: 5px;
+    font-size: smaller;
+}
+.play-instantly-cintainer{
+    margin: 50px 100px 0px 100px;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    
+}
+.play-instantly{
+    margin-left: 200px;
+    width: 190px;
+    text-align: right;
+}
+.play-instantly span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.play-instantly h3 {
+    font-size: 25px;
+    font-weight: 600;
+}
+.play-instantly-images{
+    margin-top: 50px;
+}
+.big-image{
+    width: 400px;
+    margin-left: 100px;
+    
+}
+.small{
+    width:200px;
+    position: relative;
+    bottom: 150px;
+    margin-right: px;
+}
+.main-all-btn{
+    height: 50vh;
+    width: auto;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    margin-top: -100px;
+}
+.btn-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    position: absolute;
+    justify-content: center;
+    align-content: center;
+    margin: 100px 100px;
+    
+}
+.btn-images{
+    height: 40px;
+}
+.first-st-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+   
+    border-radius:50px;
+    margin: 10px;
+    width: 150px;
+}
+.first-st-btn:hover{
+      color: #FF42A5 ;
+      border: 1px solid #FF42A5;
+}
+/* footer Start Hare */
+
+.foot{
+    background-color: rgba(11, 2, 35, 1) ;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.game-footer{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 50px;
+}
+.game-footer img{
+    width: 50px;
+}
+.gamer-footer{
+    color: #FFF;
+}
+.gamer-footer span{
+    color: #F948B2;
+}
+.footer-pera-one{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    
+    color: white;
+    font-size: 14px;
+}
+.footer-pera-one p{
+    margin-right: 15px;
+}
+.footer-pera{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 14px;
+}
+.footer-pera p{
+    margin-right: 15px;
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+span .fa-brands{
+   font-size: 30px;
+   color: white;
+}
+
+.footer-last{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+
+@media screen and (max-width:576px){
+    .nav-container{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        border: 1px solid red;
+        width: 100%;
+        margin-right: 50px;
+    }
+    .list{
+       margin-top: 20px;
+        gap: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-right: 50px;
+    }
+    .contant{
+        width: 400px;
+    }
+    .banner-container, .banner-images  img{
+        width: 400px;
+    }
+}
